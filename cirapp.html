@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Portfolio: Project</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+        <div class="header">
+            <p id="header1">Jiayue Bai's Project Portfolio</p>
+        </div>
+        <div class="menu_bar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn-active">Projects</button>
+                <div class="dropdown-content">
+                    <a href="glove.html">SmartGlove</a>
+                    <a href="cirapp.html">CIR App</a>
+                    <a href="crawler.html">Autonumous-Driving Crawler</a>
+                    <a href="irobot.html">Attack Detection</a>
+                    <a href="2dgame.html">2D Shooter Game</a>
+                    <a href="3dgame.html">3D Unity Game</a>
+                </div>
+              </div> 
+            <a href="bio.html">My Bio</a>
+            <a href="./Resources/Resume.pdf">Resume</a>
+            <a href="#footer_header">Contact</a>
+        </div>
+
+        <div class="main_body">
+            <p class="project_title">CIR (Clutter Image Rating) Mobile App</p>
+            <p id="title">Overview</p>
+            <div class="project_overview">
+                <p id="des">
+                    Excess clutter can be a manifestation of Hoarding Disorder, Schizophrenia, and other health disorders. 
+                    A cluttered room can be a safety as well as health risk. These problems can affect patients as well as 
+                    clinicians, public housing professionals, and emergency first responders. The clutter image rating is a 
+                    scale from 1 - 9 that describe how cluttered a room is with 9 being the most cluttered. The current method 
+                    of rating clutter manually by a trained professional is labor intensive and can be biased. To save on labor 
+                    as well as reduce bias a CNN was developed by the PhD student Ozan Tezcan.
+                </p>
+                <img id="crawler1" src="./Resources/CIRapp/cir-scale.png" >
+                
+                <img id="crawler2" src="./Resources/CIRapp/system.png" >
+                <p id="des">
+                    For this project, I worked with four other ECE students along with professors from the ECE and Clinical Practice department at BU. 
+                    Our goal was to develope a cross-platform mobile app that is based on the deep learning algorithm to 
+                    automatically provide a CIR (Clutter Image Rating) of a room to rate how cluttered it is, to eventually assist
+                     with diagnosis and treatment of Hoarding Disorder.
+                     <br>
+                    The front-end of the app is developement using React Native while the camera component is developed using Expo SDK.
+                    The open authorization is done using Google Firebase API. For the back-end, we used Google Firebase.
+                    <br><br><br><br>
+                    <b> Detailed report can be found <a href="./Resources/CIRapp/Final Report.pdf" target="_blank">here</a>.</b><br>
+                    <b> PowerPoint can be found <a href="./Resources/CIRapp/Final Presentation.pdf" target="_blank">here</a>.</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <p id="footer_header">Contact Info:</p>
+                <p>Tel: 703-589-3393</p>
+                <p>Email: jiayuebai2022@u.northwestern.edu</p>
+            </footer>
+        </div>
+   </body>
+</html>

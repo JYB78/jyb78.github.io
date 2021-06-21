@@ -6,12 +6,21 @@
    </head>
    <body>
         <div class="header">
-            <p id="header1">Jiayue Bai's Project Portfolio:</p>
-            <p id="header2">Home</p>
+            <p id="header1">Jiayue Bai's Project Portfolio</p>
         </div>
         <div class="menu_bar">
             <a class="active" href="index.html">Home</a>
-            <a href="project.html">Projects</a>
+            <div class="dropdown">
+                <button class="dropbtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="glove.html">SmartGlove</a>
+                    <a href="cirapp.html">CIR App</a>
+                    <a href="crawler.html">Autonumous-Driving Crawler</a>
+                    <a href="irobot.html">Attack Detection</a>
+                    <a href="2dgame.html">2D Shooter Game</a>
+                    <a href="3dgame.html">3D Unity Game</a>
+                </div>
+              </div> 
             <a href="bio.html">My Bio</a>
             <a href="./Resources/Resume.pdf">Resume</a>
             <a href="#footer_header">Contact</a>
@@ -19,22 +28,48 @@
 
         <div class="main_body">
             <div class="project_container">
-                <a href="project.html">
-                    <p class="project_title">Project #1: Autonumous-Driving Crawler</p>
-                    <img class="cover" src="./Resources/project_cover1.jpg" alt="Project Cover and Link to Autonumous-Driving Crawler">
+                <a href="glove.html">
+                    <p class="project_title">Embedded Systems/IoT: SmartGlove (2021)</p>
+                    <img class="cover" src="./Resources/glove/cover.png">
                 </a>
             </div>
             <div class="project_container">
-                <p class="project_title">Project #2: Fixed 2D Shooter</p>
-                <img class="cover" src="./Resources/project_cover2.png" alt="Project Cover to Simple 2D Game Made Using the Unity Game Engine">
+                <a href="cirapp.html">
+                    <p class="project_title">Mobile App: CIR (Clutter Image Rating) App (2019-2020)</p>
+                    <img class="cover" src="./Resources/CIRapp/cir-scale.png">
+                </a>
+            </div>
+            <div class="project_container">
+                <a href="crawler.html">
+                    <p class="project_title">Embedded Systems/IoT: Autonumous-Driving Crawler (2019)</p>
+                    <img class="cover" src="./Resources/crawler/project_cover1.jpg" alt="Project Cover and Link to Autonumous-Driving Crawler">
+                </a>
+            </div>
+            <div class="project_container">
+                <a href="irobot.html">
+                    <p class="project_title">Robotics: Physical Masquerade Attack Detection (2019)</p>
+                    <img class="cover" src="./Resources/irobot/irobot.png">
+                </a>
+            </div>
+            <div class="project_container">
+                <a href="2dgame.html">
+                    <p class="project_title">2D Unity Game: Classic Fixed 2D Shooter (2021)</p>
+                    <img class="cover" src="./Resources/2dgame/2dgame.png" alt="Project Cover to Simple 2D Game Made Using the Unity Game Engine">
+                </a>
+            </div>
+            <div class="project_container">
+                <a href="3dgame.html">
+                    <p class="project_title">3D Unity Game: Rolling in the Deep (2021)</p>
+                    <img class="cover" src="./Resources/3Dgame/stage2.png">
+                </a>
             </div>
         </div>
 
         <div class="footer">
             <footer>
                 <p id="footer_header">Contact Info:</p>
-                <p>Tel: xxx-xxx-xxxx</p>
-                <p>Email: fakeEmail@email.com</p>
+                <p>Tel: 703-589-3393</p>
+                <p>Email: jiayuebai2022@u.northwestern.edu</p>
             </footer>
         </div>
    </body>

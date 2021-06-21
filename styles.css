@@ -42,7 +42,7 @@ body{
     font-size: 17px;
 }
 
-.menu_bar a:hover {
+.menu_bar a:hover .dropdown:hover .dropbtn{
     background-color: rgb(159, 72, 101);
     color: white;
 }
@@ -51,6 +51,61 @@ body{
     background-color: #14b88f;
     color: white;
 }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+
+}
+
+.dropbtn-active{
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: #14b88f;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropdown-content a:hover {
+    background-color: #14b88f;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 footer {
     text-align: center;
@@ -82,10 +137,12 @@ footer {
 .project_container {
     padding: 30px;
 }
-
+.project_container a{
+    text-decoration: none;
+}
 .project_title {
-    font-weight: bold;
-    font-size: 40px;
+    /*font-weight: bold;*/
+    font-size: 30px;
     color: #474e55;
     text-decoration: none;
 }
@@ -110,10 +167,21 @@ footer {
     color: #474e55;
     padding-left: 100px;
     padding-right: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-weight: 300;
     font-size: 20px;
     width: 40%;
+    float: left;
+}
+
+#des_full{
+    text-align: center;
+    color: #474e55;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 20px;
     float: left;
 }
 
@@ -123,6 +191,7 @@ footer {
     float: left;
     padding: 30px;
 }
+
 
 #crawler2 {
     width: 35%;

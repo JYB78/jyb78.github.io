@@ -6,12 +6,21 @@
    </head>
    <body>
       <div class="header">
-         <p id="header1">Jiayue Bai's Project Portfolio:</p>
-         <p id="header2">Home</p>
+         <p id="header1">Jiayue Bai's Project Portfolio</p>
      </div>
      <div class="menu_bar">
          <a href="index.html">Home</a>
-         <a href="project.html">Projects</a>
+         <div class="dropdown">
+            <button class="dropbtn">Projects</button>
+            <div class="dropdown-content">
+               <a href="glove.html">SmartGlove</a>
+               <a href="cirapp.html">CIR App</a>
+               <a href="crawler.html">Autonumous-Driving Crawler</a>
+               <a href="irobot.html">Attack Detection</a>
+               <a href="2dgame.html">2D Shooter Game</a>
+               <a href="3dgame.html">3D Unity Game</a>
+           </div>
+          </div> 
          <a class="active" href="bio.html">My Bio</a>
          <a href="./Resources/Resume.pdf">Resume</a>
          <a href="#footer_header">Contact</a>
@@ -21,16 +30,19 @@
         <div class="bio_container">
          <img id="me" src="./Resources/me.jpeg" alt="Profile Picture of Jiayue Bai">
          <h1>Jiayue (Cindy) Bai</h1>
-         <p class="subtitle">About Me</p>
+         <p class="subtitle">Fun Facts About Me</p>
          <ul class="bullet_pts">
             <li>Home Town: Beijing, China</li>
             <li>Came to US during 7th grade when I was 13 years old</li>
-            <li>Lanugages: Chinese, English, Korean, Japanese</li>
+            <li>Lanugages I Know: Chinese, English, Korean (entry-level), Japanese (entry-level)</li>
             <li>Have three cats back at home in China</li>
             <li>Also a snake mom: I own a corn snake and a ball python</li>
+            <li>Loves tennis and basketball (varsity team in both middle and high school)</li>
          </ul>
          <p class="subtitle">Education</p>
          <ul class="bullet_pts">
+            <li>Middle School: Fay School (Southborough, Massachusetts)</li>
+            <li>High School: the Madeira School (McLean, VA)</li>
             <li>Boston Univeristy, Bachlor in Computer Engineering</li>
             <li>Northwestern University, Master in Computer Engineering</li>
          </ul>
@@ -44,9 +56,9 @@
 
      <div class="footer">
          <footer>
-             <p id="footer_header">Contact Info:</p>
-             <p>Tel: xxx-xxx-xxxx</p>
-             <p>Email: fakeEmail@email.com</p>
+            <p id="footer_header">Contact Info:</p>
+            <p>Tel: 703-589-3393</p>
+            <p>Email: jiayuebai2022@u.northwestern.edu</p>
          </footer>
      </div>
    </body>
